@@ -1,10 +1,14 @@
 #!/usr/bin/python3
-"""return list attributes and methods"""
+"""class MyList that inherits from list"""
 
 
-def lookup(obj):
+class MyList(list):
     """
-    function that returns the list of
-    available attributes and methods of an object
+    class inherits Public instance method
     """
-    return dir(obj)
+
+    def print_sorted(self):
+        """
+         prints the list, but sorted (ascending sort)
+        """
+        print(sorted(self))
