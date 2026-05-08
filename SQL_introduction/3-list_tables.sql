@@ -1,0 +1,2 @@
+-- exp
+SHOW TABLES;
